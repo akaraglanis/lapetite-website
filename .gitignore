@@ -1,0 +1,30 @@
+# --- OS / editor noise ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.vscode/
+.idea/
+*.swp
+*~
+
+# --- Python tooling (used by scripts/) ---
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+.uv/
+*.egg-info/
+
+# --- Source / working assets, NOT for the published site ---
+# Raw card scans and originals — too large / not used by the site.
+inputs/
+# Empty staging folder for unused assets.
+la-petite/
+
+# --- Local dev artifacts ---
+node_modules/
+.cache/
+*.log

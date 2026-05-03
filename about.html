@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title data-i18n="title_about">About — La Petite</title>
+  <meta name="description" content="Meet the baker behind La Petite — a one-person boutique sweet studio in Marathon, Greece, crafting cakes, biscuits, cupcakes, sweets and dessert tables." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="icon" type="image/png" href="assets/images/logo.png" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html" aria-label="La Petite">
+        <img src="assets/images/logo.png" alt="La Petite" />
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html"   data-nav="index.html" data-i18n="nav_home">Home</a></li>
+        <li><a href="menu.html"    data-nav="menu.html"  data-i18n="nav_menu">Services</a></li>
+        <li><a href="about.html"   data-nav="about.html" data-i18n="nav_about">About</a></li>
+        <li><a href="contact.html" data-nav="contact.html" data-i18n="nav_contact">Contact</a></li>
+        <li>
+          <div class="lang-switch">
+            <button type="button" data-lang="en">EN</button>
+            <button type="button" data-lang="el">ΕΛ</button>
+          </div>
+        </li>
+        <li><a class="btn btn-primary" href="contact.html" data-i18n="nav_cta">Get a Quote</a></li>
+      </ul>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="mobile-menu" data-i18n-attr="aria-label:nav_toggle_aria">
+        <svg class="icon-open" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg>
+        <svg class="icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="6" y1="6" x2="18" y2="18"/><line x1="6" y1="18" x2="18" y2="6"/></svg>
+      </button>
+    </div>
+    <nav id="mobile-menu" class="mobile-menu" aria-label="Mobile">
+      <ul>
+        <li><a href="index.html"   data-nav="index.html" data-i18n="nav_home">Home</a></li>
+        <li><a href="menu.html"    data-nav="menu.html"  data-i18n="nav_menu">Services</a></li>
+        <li><a href="about.html"   data-nav="about.html" data-i18n="nav_about">About</a></li>
+        <li><a href="contact.html" data-nav="contact.html" data-i18n="nav_contact">Contact</a></li>
+        <li>
+          <div class="lang-switch">
+            <button type="button" data-lang="en">EN</button>
+            <button type="button" data-lang="el">ΕΛ</button>
+          </div>
+        </li>
+        <li><a class="btn btn-primary" href="contact.html" data-i18n="nav_cta">Get a Quote</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <div class="about-grid">
+          <div>
+            <span class="eyebrow" data-i18n="about_eyebrow">About La Petite</span>
+            <h1 class="font-display" style="font-size:clamp(2.5rem,5vw,4rem); margin-top:0.5rem;" data-i18n="about_title">A tiny studio in Marathon, with a whole lot of sprinkle.</h1>
+            <p style="margin-top:1.25rem; color:var(--ink-soft); font-size:1.1rem;" data-i18n="about_p1">
+              La Petite started in a home kitchen with one stand mixer, a
+              well-loved piping bag and a stack of birthday orders for
+              friends. Today it's still a one-baker boutique studio in
+              Marathon, Greece — small on purpose, so every order gets the
+              time and care it deserves.
+            </p>
+            <p style="margin-top:1rem; color:var(--ink-soft);" data-i18n="about_p2">
+              I bake in small batches with proper butter, real vanilla and
+              seasonal fruit, then decorate by hand. Every piece is made to
+              be the centrepiece of a small celebration — a little wonky on
+              purpose, always full of personality.
+            </p>
+          </div>
+
+          <div>
+            <div class="about-portrait">
+              <span class="greeting" data-i18n-html="about_greeting_html">Hello,<br/>I'm the baker!</span>
+              <span class="sprinkle s1"></span>
+              <span class="sprinkle s2"></span>
+            </div>
+            <p class="portrait-caption" data-i18n="about_caption">A real photo will live here soon.</p>
+          </div>
+        </div>
+
+        <div class="value-grid">
+          <div class="value v1">
+            <h3 data-i18n="value1_title">Small batch</h3>
+            <p data-i18n="value1_text">I only take a handful of orders each week so every cake, biscuit and sweet is fresh, focused and a little bit special.</p>
+          </div>
+          <div class="value v2">
+            <h3 data-i18n="value2_title">Real ingredients</h3>
+            <p data-i18n="value2_text">Proper butter, free-range eggs, real chocolate and seasonal fruit. No shortcuts, no pre-mixes.</p>
+          </div>
+          <div class="value v3">
+            <h3 data-i18n="value3_title">Made for you</h3>
+            <p data-i18n="value3_text">Every order is custom designed around your celebration, your colours and your favourite flavours.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section text-center">
+      <div class="container" style="max-width:42rem">
+        <h2 class="font-display" style="font-size:clamp(2rem,4vw,3rem)" data-i18n="about_cta_title">Let's bake something together</h2>
+        <p style="margin-top:0.75rem; color:var(--ink-soft);" data-i18n="about_cta_text">
+          Birthday, baptism, baby shower, wedding or just a Tuesday treat — I'd love to hear about it.
+        </p>
+        <a class="btn btn-primary" href="contact.html" style="margin-top:1.5rem" data-i18n="about_cta_btn">Send a message</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <img class="footer-brand-img" src="assets/images/logo.png" alt="La Petite" />
+        <p data-i18n="footer_tagline">A tiny boutique sweet studio in Marathon, Greece.</p>
+      </div>
+      <div>
+        <h4 data-i18n="footer_visit">Visit</h4>
+        <ul>
+          <li data-i18n="footer_appt">By appointment only</li>
+          <li data-i18n="footer_loc">Marathon, Greece</li>
+          <li data-i18n="footer_hours">Tue – Sat · 10am – 6pm</li>
+        </ul>
+      </div>
+      <div>
+        <h4 data-i18n="footer_stay">Stay sweet</h4>
+        <ul>
+          <li><a href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener" data-i18n="footer_insta">@la_petitepatis on Instagram</a></li>
+          <li><a href="mailto:hello@lapetite.example">hello@lapetite.example</a></li>
+          <li><a href="contact.html" data-i18n="footer_enquiry">Send a custom order enquiry</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bar">
+      <div class="container">
+        <p data-i18n-year="footer_rights">© <span id="year"></span> La Petite. All rights reserved.</p>
+        <p data-i18n="footer_handmade">Handmade in small batches · Crafted with sugar &amp; love</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/i18n.js" defer></script>
+  <script src="assets/js/nav.js" defer></script>
+</body>
+</html>

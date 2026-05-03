@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title data-i18n="title_home">La Petite — Boutique Cakes &amp; Sweet Treats</title>
+  <meta name="description" content="La Petite is a small-batch boutique sweet studio in Marathon, Greece — bespoke cakes, hand-iced biscuits, cupcakes, sweets and dessert tables for every celebration." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="icon" type="image/png" href="assets/images/logo.png" />
+</head>
+<body>
+
+  <!-- ========== HEADER ========== -->
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html" aria-label="La Petite">
+        <img src="assets/images/logo.png" alt="La Petite" />
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="index.html"   data-nav="index.html" data-i18n="nav_home">Home</a></li>
+        <li><a href="menu.html"    data-nav="menu.html"  data-i18n="nav_menu">Services</a></li>
+        <li><a href="about.html"   data-nav="about.html" data-i18n="nav_about">About</a></li>
+        <li><a href="contact.html" data-nav="contact.html" data-i18n="nav_contact">Contact</a></li>
+        <li>
+          <div class="lang-switch">
+            <button type="button" data-lang="en">EN</button>
+            <button type="button" data-lang="el">ΕΛ</button>
+          </div>
+        </li>
+        <li><a class="btn btn-primary" href="contact.html" data-i18n="nav_cta">Get a Quote</a></li>
+      </ul>
+
+      <button class="nav-toggle" aria-expanded="false" aria-controls="mobile-menu" data-i18n-attr="aria-label:nav_toggle_aria">
+        <svg class="icon-open" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg>
+        <svg class="icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="6" y1="6" x2="18" y2="18"/><line x1="6" y1="18" x2="18" y2="6"/></svg>
+      </button>
+    </div>
+
+    <nav id="mobile-menu" class="mobile-menu" aria-label="Mobile">
+      <ul>
+        <li><a href="index.html"   data-nav="index.html" data-i18n="nav_home">Home</a></li>
+        <li><a href="menu.html"    data-nav="menu.html"  data-i18n="nav_menu">Services</a></li>
+        <li><a href="about.html"   data-nav="about.html" data-i18n="nav_about">About</a></li>
+        <li><a href="contact.html" data-nav="contact.html" data-i18n="nav_contact">Contact</a></li>
+        <li>
+          <div class="lang-switch">
+            <button type="button" data-lang="en">EN</button>
+            <button type="button" data-lang="el">ΕΛ</button>
+          </div>
+        </li>
+        <li><a class="btn btn-primary" href="contact.html" data-i18n="nav_cta">Get a Quote</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ========== HERO ========== -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <span class="eyebrow" data-i18n="home_eyebrow">Boutique sweet studio · Marathon, GR</span>
+          <h1>
+            <span data-i18n="home_title_1">Sweet little things</span>
+            <span data-i18n="home_title_2">for your big day.</span>
+          </h1>
+          <p data-i18n="home_intro">
+            La Petite is a one-baker studio in Marathon crafting bespoke cakes,
+            hand-iced biscuits, cupcakes, sweets and dessert tables for
+            birthdays, baptisms, weddings — and the perfectly ordinary
+            Tuesdays in between.
+          </p>
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="contact.html" data-i18n="home_btn_order">Get a quote</a>
+            <a class="btn btn-ghost"   href="menu.html"    data-i18n="home_btn_menu">See what I make</a>
+          </div>
+
+          <ul class="hero-stats">
+            <li><span class="num" data-i18n="home_stat1_num">100%</span><span class="label" data-i18n="home_stat1_label">Made by hand</span></li>
+            <li><span class="num" data-i18n="home_stat2_num">1-of-1</span><span class="label" data-i18n="home_stat2_label">Custom designs</span></li>
+            <li><span class="num" data-i18n="home_stat3_num">∞</span><span class="label" data-i18n="home_stat3_label">Sprinkle love</span></li>
+          </ul>
+        </div>
+
+        <div class="hero-photo">
+          <img src="assets/images/gallery/hero-main.jpg"
+               alt="A custom cake by La Petite"
+               data-i18n-attr="alt:home_hero_alt" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== WHAT I MAKE (services teaser) ========== -->
+    <section class="section section-light">
+      <div class="container">
+        <div class="section-head row">
+          <div>
+            <span class="eyebrow" data-i18n="home_featured_eyebrow">Made to order</span>
+            <h2 data-i18n="home_featured_title">What I make</h2>
+          </div>
+          <a class="more" href="menu.html" data-i18n="home_featured_more">All services →</a>
+        </div>
+
+        <div class="cake-grid">
+          <article class="cake-card">
+            <div class="cake-thumb has-photo">
+              <img src="assets/images/gallery/cake-celebration-7.jpg" alt="" loading="lazy" />
+              <span class="name" data-i18n="svc_cake_name">Cakes</span>
+            </div>
+            <div class="cake-body">
+              <p class="tagline" data-i18n="svc_cake_tag">Bespoke birthday, baptism &amp; celebration cakes</p>
+              <div class="meta">
+                <span class="price" data-i18n="price_on_request">Price on request</span>
+                <a class="enquire" href="contact.html?cake=cake" data-i18n="menu_quote_short">Get a quote</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="cake-card">
+            <div class="cake-thumb has-photo">
+              <img src="assets/images/gallery/biscuits-1.jpg" alt="" loading="lazy" />
+              <span class="name" data-i18n="svc_biscuit_name">Biscuits</span>
+            </div>
+            <div class="cake-body">
+              <p class="tagline" data-i18n="svc_biscuit_tag">Hand-iced cookies &amp; themed biscuit sets</p>
+              <div class="meta">
+                <span class="price" data-i18n="price_on_request">Price on request</span>
+                <a class="enquire" href="contact.html?cake=biscuits" data-i18n="menu_quote_short">Get a quote</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="cake-card">
+            <div class="cake-thumb bg-candy">
+              <span class="name" data-i18n="svc_candy_name">Candy bar</span>
+            </div>
+            <div class="cake-body">
+              <p class="tagline" data-i18n="svc_candy_tag">A full dessert table for your event</p>
+              <div class="meta">
+                <span class="price" data-i18n="price_on_request">Price on request</span>
+                <a class="enquire" href="contact.html?cake=candy%20bar" data-i18n="menu_quote_short">Get a quote</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== HOW IT WORKS ========== -->
+    <section class="section">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="font-display" style="font-size:clamp(2rem,4vw,3rem)" data-i18n="home_steps_title">How ordering works</h2>
+          <p class="section-intro" data-i18n="home_steps_intro">Three sweet steps from idea to icing.</p>
+        </div>
+
+        <ol class="steps">
+          <li class="step bg-1">
+            <p class="num">01</p>
+            <h3 data-i18n="home_step1_title">Tell me your idea</h3>
+            <p data-i18n="home_step1_text">Send a message with your date, theme and any inspiration pictures.</p>
+          </li>
+          <li class="step bg-2">
+            <p class="num">02</p>
+            <h3 data-i18n="home_step2_title">We design together</h3>
+            <p data-i18n="home_step2_text">I'll reply with sketches, flavour suggestions and a quote within 48 hours.</p>
+          </li>
+          <li class="step bg-3">
+            <p class="num">03</p>
+            <h3 data-i18n="home_step3_title">Bake &amp; collect</h3>
+            <p data-i18n="home_step3_text">Your order is baked fresh and ready for collection in Marathon or local delivery.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ========== PAST BAKES MINI GALLERY ========== -->
+    <section class="section section-light">
+      <div class="container">
+        <div class="section-head row">
+          <div>
+            <span class="eyebrow" data-i18n="home_gallery_eyebrow">Past bakes</span>
+            <h2 data-i18n="home_gallery_title">A little look at the kitchen</h2>
+          </div>
+          <a class="more" href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener" data-i18n="home_gallery_more">See more on Instagram →</a>
+        </div>
+
+        <div class="mini-gallery">
+          <a href="menu.html"><img src="assets/images/gallery/cake-pink-floral.jpg"     alt="" loading="lazy" /></a>
+          <a href="menu.html"><img src="assets/images/gallery/cake-character-1.jpg"     alt="" loading="lazy" /></a>
+          <a href="menu.html"><img src="assets/images/gallery/cake-celebration-1.jpg"   alt="" loading="lazy" /></a>
+          <a href="menu.html"><img src="assets/images/gallery/biscuits-2.jpg"           alt="" loading="lazy" /></a>
+          <a href="menu.html"><img src="assets/images/gallery/cake-themed-1.jpg"        alt="" loading="lazy" /></a>
+          <a href="menu.html"><img src="assets/images/gallery/cake-rainbow.webp"        alt="" loading="lazy" /></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CTA BANNER ========== -->
+    <section class="section">
+      <div class="container" style="max-width:60rem">
+        <div class="banner-cta">
+          <h2 data-i18n="home_banner_title">Got a sweet idea?</h2>
+          <p data-i18n="home_banner_text">Birthday, baptism, baby shower or just because — I'd love to hear what you're dreaming up.</p>
+          <a class="btn btn-light" href="contact.html" data-i18n="home_banner_btn">Start your order</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <img class="footer-brand-img" src="assets/images/logo.png" alt="La Petite" />
+        <p data-i18n="footer_tagline">A tiny boutique sweet studio in Marathon, Greece. Cakes, biscuits, cupcakes and dessert tables — all made to order, all baked with love.</p>
+      </div>
+      <div>
+        <h4 data-i18n="footer_visit">Visit</h4>
+        <ul>
+          <li data-i18n="footer_appt">By appointment only</li>
+          <li data-i18n="footer_loc">Marathon, Greece</li>
+          <li data-i18n="footer_hours">Tue – Sat · 10am – 6pm</li>
+        </ul>
+      </div>
+      <div>
+        <h4 data-i18n="footer_stay">Stay sweet</h4>
+        <ul>
+          <li><a href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener" data-i18n="footer_insta">@la_petitepatis on Instagram</a></li>
+          <li><a href="mailto:hello@lapetite.example">hello@lapetite.example</a></li>
+          <li><a href="contact.html" data-i18n="footer_enquiry">Send a custom order enquiry</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bar">
+      <div class="container">
+        <p data-i18n-year="footer_rights">© <span id="year"></span> La Petite. All rights reserved.</p>
+        <p data-i18n="footer_handmade">Handmade in small batches · Crafted with sugar &amp; love</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/i18n.js" defer></script>
+  <script src="assets/js/nav.js" defer></script>
+</body>
+</html>

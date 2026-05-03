@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title data-i18n="title_menu">Services — La Petite</title>
+  <meta name="description" content="La Petite's services: bespoke cakes, hand-iced biscuits, themed cupcakes, sweets and full dessert tables for celebrations in Marathon, Greece." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="icon" type="image/png" href="assets/images/logo.png" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html" aria-label="La Petite">
+        <img src="assets/images/logo.png" alt="La Petite" />
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html"   data-nav="index.html" data-i18n="nav_home">Home</a></li>
+        <li><a href="menu.html"    data-nav="menu.html"  data-i18n="nav_menu">Services</a></li>
+        <li><a href="about.html"   data-nav="about.html" data-i18n="nav_about">About</a></li>
+        <li><a href="contact.html" data-nav="contact.html" data-i18n="nav_contact">Contact</a></li>
+        <li>
+          <div class="lang-switch">
+            <button type="button" data-lang="en">EN</button>
+            <button type="button" data-lang="el">ΕΛ</button>
+          </div>
+        </li>
+        <li><a class="btn btn-primary" href="contact.html" data-i18n="nav_cta">Get a Quote</a></li>
+      </ul>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="mobile-menu" data-i18n-attr="aria-label:nav_toggle_aria">
+        <svg class="icon-open" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg>
+        <svg class="icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="6" y1="6" x2="18" y2="18"/><line x1="6" y1="18" x2="18" y2="6"/></svg>
+      </button>
+    </div>
+    <nav id="mobile-menu" class="mobile-menu" aria-label="Mobile">
+      <ul>
+        <li><a href="index.html"   data-nav="index.html" data-i18n="nav_home">Home</a></li>
+        <li><a href="menu.html"    data-nav="menu.html"  data-i18n="nav_menu">Services</a></li>
+        <li><a href="about.html"   data-nav="about.html" data-i18n="nav_about">About</a></li>
+        <li><a href="contact.html" data-nav="contact.html" data-i18n="nav_contact">Contact</a></li>
+        <li>
+          <div class="lang-switch">
+            <button type="button" data-lang="en">EN</button>
+            <button type="button" data-lang="el">ΕΛ</button>
+          </div>
+        </li>
+        <li><a class="btn btn-primary" href="contact.html" data-i18n="nav_cta">Get a Quote</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container text-center">
+        <span class="eyebrow" data-i18n="menu_eyebrow">Services</span>
+        <h1 class="font-display" style="font-size:clamp(2.5rem,5vw,4rem); margin-top:0.5rem;" data-i18n="menu_title">Made for every celebration</h1>
+        <p class="section-intro" data-i18n="menu_intro">
+          Everything is made to order around your event, your colours and the
+          people you love. Pricing depends on size, design complexity and
+          delivery — get in touch for a personal quote within 48 hours.
+        </p>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:0">
+      <div class="container">
+        <div class="cake-grid">
+
+          <!-- CAKES -->
+          <article class="cake-card">
+            <div class="cake-thumb has-photo">
+              <img src="assets/images/gallery/cake-celebration-7.jpg" alt="" loading="lazy" />
+              <span class="name" data-i18n="svc_cake_name">Cakes</span>
+            </div>
+            <div class="cake-body">
+              <h3 data-i18n="svc_cake_name">Cakes</h3>
+              <p class="tagline" data-i18n="svc_cake_tag">Bespoke birthday, baptism &amp; celebration cakes</p>
+              <p class="desc" data-i18n="svc_cake_desc">Sculpted character cakes, themed designs, number cakes, baptism and wedding cakes — all custom-made around your celebration.</p>
+              <div class="meta">
+                <span class="price" data-i18n="price_on_request">Price on request</span>
+                <a class="enquire" href="contact.html?cake=cake" data-i18n="menu_quote_short">Get a quote</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- BISCUITS -->
+          <article class="cake-card">
+            <div class="cake-thumb has-photo">
+              <img src="assets/images/gallery/biscuits-1.jpg" alt="" loading="lazy" />
+              <span class="name" data-i18n="svc_biscuit_name">Biscuits</span>
+            </div>
+            <div class="cake-body">
+              <h3 data-i18n="svc_biscuit_name">Biscuits</h3>
+              <p class="tagline" data-i18n="svc_biscuit_tag">Hand-iced cookies &amp; themed biscuit sets</p>
+              <p class="desc" data-i18n="svc_biscuit_desc">Royal-iced sugar biscuits in any shape, colour or design — perfect for party favours, wedding gifts or to match a cake.</p>
+              <div class="meta">
+                <span class="price" data-i18n="price_on_request">Price on request</span>
+                <a class="enquire" href="contact.html?cake=biscuits" data-i18n="menu_quote_short">Get a quote</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- CUPCAKES -->
+          <article class="cake-card">
+            <div class="cake-thumb bg-cupcake">
+              <span class="name" data-i18n="svc_cupcakes_name">Cupcakes</span>
+            </div>
+            <div class="cake-body">
+              <h3 data-i18n="svc_cupcakes_name">Cupcakes</h3>
+              <p class="tagline" data-i18n="svc_cupcakes_tag">Themed cupcakes for parties &amp; gatherings</p>
+              <p class="desc" data-i18n="svc_cupcakes_desc">Soft, fluffy cupcakes with buttercream swirls, fondant toppers or matching themes — wonderful on their own or alongside a cake.</p>
+              <div class="meta">
+                <span class="price" data-i18n="price_on_request">Price on request</span>
+                <a class="enquire" href="contact.html?cake=cupcakes" data-i18n="menu_quote_short">Get a quote</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- SWEETS -->
+          <article class="cake-card">
+            <div class="cake-thumb bg-sweets">
+              <span class="name" data-i18n="svc_sweets_name">Sweets</span>
+            </div>
+            <div class="cake-body">
+              <h3 data-i18n="svc_sweets_name">Sweets</h3>
+              <p class="tagline" data-i18n="svc_sweets_tag">Cake pops, mini desserts &amp; sweet jars</p>
+              <p class="desc" data-i18n="svc_sweets_desc">Bite-sized sweet treats — cake pops, mini tarts, brownies and chocolate dips — perfect for adding variety to a celebration table.</p>
+              <div class="meta">
+                <span class="price" data-i18n="price_on_request">Price on request</span>
+                <a class="enquire" href="contact.html?cake=sweets" data-i18n="menu_quote_short">Get a quote</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- CANDY BAR -->
+          <article class="cake-card">
+            <div class="cake-thumb bg-candy">
+              <span class="name" data-i18n="svc_candy_name">Candy bar</span>
+            </div>
+            <div class="cake-body">
+              <h3 data-i18n="svc_candy_name">Candy bar</h3>
+              <p class="tagline" data-i18n="svc_candy_tag">A full dessert table for your event</p>
+              <p class="desc" data-i18n="svc_candy_desc">Coordinated dessert tables for baptisms, weddings and parties — cake, cupcakes, biscuits, cake pops and sweets all themed together, set up at your venue.</p>
+              <div class="meta">
+                <span class="price" data-i18n="price_on_request">Price on request</span>
+                <a class="enquire" href="contact.html?cake=candy%20bar" data-i18n="menu_quote_short">Get a quote</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="section section-light">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow" data-i18n="home_gallery_eyebrow">Past bakes</span>
+          <h2 data-i18n="home_gallery_title">A little look at the kitchen</h2>
+        </div>
+
+        <div class="mini-gallery">
+          <a href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/cake-pink-floral.jpg"     alt="" loading="lazy" /></a>
+          <a href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/cake-character-1.jpg"     alt="" loading="lazy" /></a>
+          <a href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/cake-character-2.jpg"     alt="" loading="lazy" /></a>
+          <a href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/cake-character-3.jpg"     alt="" loading="lazy" /></a>
+          <a href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/cake-themed-1.jpg"        alt="" loading="lazy" /></a>
+          <a href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/cake-themed-2.jpg"        alt="" loading="lazy" /></a>
+          <a href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/cake-celebration-1.jpg"   alt="" loading="lazy" /></a>
+          <a href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/cake-celebration-2.jpg"   alt="" loading="lazy" /></a>
+          <a href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/cake-celebration-3.jpg"   alt="" loading="lazy" /></a>
+          <a href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/cake-celebration-4.jpg"   alt="" loading="lazy" /></a>
+          <a href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/cake-celebration-5.jpg"   alt="" loading="lazy" /></a>
+          <a href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/cake-celebration-6.jpg"   alt="" loading="lazy" /></a>
+          <a href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/cake-rainbow.webp"        alt="" loading="lazy" /></a>
+          <a href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/biscuits-2.jpg"           alt="" loading="lazy" /></a>
+          <a href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/biscuits-3.jpg"           alt="" loading="lazy" /></a>
+          <a href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/biscuits-4.jpg"           alt="" loading="lazy" /></a>
+          <a href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/biscuits-6.jpg"           alt="" loading="lazy" /></a>
+          <a href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/biscuits-7.jpg"           alt="" loading="lazy" /></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container" style="max-width:50rem">
+        <div class="banner-cta" style="background:rgba(255,255,255,0.7); color:var(--ink); border:1px solid var(--peach-soft); box-shadow:none;">
+          <h2 style="color:var(--ink)" data-i18n="menu_custom_title">Don't see exactly what you need?</h2>
+          <p style="color:var(--ink-soft)" data-i18n="menu_custom_text">Every order is custom — themes, colours, flavours, all of it. Tell me your idea and I'll bring it to life.</p>
+          <a class="btn btn-primary" href="contact.html" data-i18n="menu_custom_btn">Tell me your idea</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <img class="footer-brand-img" src="assets/images/logo.png" alt="La Petite" />
+        <p data-i18n="footer_tagline">A tiny boutique sweet studio in Marathon, Greece.</p>
+      </div>
+      <div>
+        <h4 data-i18n="footer_visit">Visit</h4>
+        <ul>
+          <li data-i18n="footer_appt">By appointment only</li>
+          <li data-i18n="footer_loc">Marathon, Greece</li>
+          <li data-i18n="footer_hours">Tue – Sat · 10am – 6pm</li>
+        </ul>
+      </div>
+      <div>
+        <h4 data-i18n="footer_stay">Stay sweet</h4>
+        <ul>
+          <li><a href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener" data-i18n="footer_insta">@la_petitepatis on Instagram</a></li>
+          <li><a href="mailto:hello@lapetite.example">hello@lapetite.example</a></li>
+          <li><a href="contact.html" data-i18n="footer_enquiry">Send a custom order enquiry</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bar">
+      <div class="container">
+        <p data-i18n-year="footer_rights">© <span id="year"></span> La Petite. All rights reserved.</p>
+        <p data-i18n="footer_handmade">Handmade in small batches · Crafted with sugar &amp; love</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/i18n.js" defer></script>
+  <script src="assets/js/nav.js" defer></script>
+</body>
+</html>

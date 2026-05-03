@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title data-i18n="title_contact">Contact — La Petite</title>
+  <meta name="description" content="Send a custom order enquiry to La Petite — boutique cakes, biscuits, cupcakes and dessert tables in Marathon, Greece." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="icon" type="image/png" href="assets/images/logo.png" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html" aria-label="La Petite">
+        <img src="assets/images/logo.png" alt="La Petite" />
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html"   data-nav="index.html" data-i18n="nav_home">Home</a></li>
+        <li><a href="menu.html"    data-nav="menu.html"  data-i18n="nav_menu">Services</a></li>
+        <li><a href="about.html"   data-nav="about.html" data-i18n="nav_about">About</a></li>
+        <li><a href="contact.html" data-nav="contact.html" data-i18n="nav_contact">Contact</a></li>
+        <li>
+          <div class="lang-switch">
+            <button type="button" data-lang="en">EN</button>
+            <button type="button" data-lang="el">ΕΛ</button>
+          </div>
+        </li>
+        <li><a class="btn btn-primary" href="contact.html" data-i18n="nav_cta">Get a Quote</a></li>
+      </ul>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="mobile-menu" data-i18n-attr="aria-label:nav_toggle_aria">
+        <svg class="icon-open" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg>
+        <svg class="icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="6" y1="6" x2="18" y2="18"/><line x1="6" y1="18" x2="18" y2="6"/></svg>
+      </button>
+    </div>
+    <nav id="mobile-menu" class="mobile-menu" aria-label="Mobile">
+      <ul>
+        <li><a href="index.html"   data-nav="index.html" data-i18n="nav_home">Home</a></li>
+        <li><a href="menu.html"    data-nav="menu.html"  data-i18n="nav_menu">Services</a></li>
+        <li><a href="about.html"   data-nav="about.html" data-i18n="nav_about">About</a></li>
+        <li><a href="contact.html" data-nav="contact.html" data-i18n="nav_contact">Contact</a></li>
+        <li>
+          <div class="lang-switch">
+            <button type="button" data-lang="en">EN</button>
+            <button type="button" data-lang="el">ΕΛ</button>
+          </div>
+        </li>
+        <li><a class="btn btn-primary" href="contact.html" data-i18n="nav_cta">Get a Quote</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <div class="text-center">
+          <span class="eyebrow" data-i18n="contact_eyebrow">Contact</span>
+          <h1 class="font-display" style="font-size:clamp(2.5rem,5vw,4rem); margin-top:0.5rem;" data-i18n="contact_title">Let's talk sweet</h1>
+          <p class="section-intro" data-i18n="contact_intro">
+            Tell me a bit about your celebration and any theme, flavour or
+            colour inspiration. I usually reply within 48 hours.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <aside class="contact-info">
+            <div class="info-card pink">
+              <h3 data-i18n="contact_quick_title">Quick info</h3>
+              <ul>
+                <li data-i18n="contact_quick_1">📅 Please order at least 1 week ahead</li>
+                <li data-i18n="contact_quick_2">💬 Custom design, price on request</li>
+                <li data-i18n="contact_quick_3">🚗 Local delivery in &amp; around Marathon</li>
+                <li data-i18n="contact_quick_4">✉️ Replies within 48h, Tue–Sat</li>
+              </ul>
+            </div>
+            <div class="info-card mint">
+              <h3 data-i18n="contact_find_title">Find me</h3>
+              <p style="font-size:0.95rem; color:var(--ink-soft); margin-top:0.75rem;" data-i18n="contact_find_text">
+                Based in Marathon, Greece. By appointment only — collection
+                address shared once your order is confirmed.
+              </p>
+              <a href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener">@la_petitepatis ↗</a>
+            </div>
+          </aside>
+
+          <form id="contact-form" class="contact-form" novalidate>
+            <!-- honeypot for bots -->
+            <div class="honeypot" aria-hidden="true">
+              <label>Don't fill this in <input name="company" type="text" tabindex="-1" autocomplete="off" /></label>
+            </div>
+
+            <div class="form-row">
+              <div class="field">
+                <label for="name"><span data-i18n="form_name">Your name</span> <span class="req">*</span></label>
+                <input id="name" name="name" type="text" required autocomplete="name" />
+              </div>
+              <div class="field">
+                <label for="email"><span data-i18n="form_email">Email</span> <span class="req">*</span></label>
+                <input id="email" name="email" type="email" required autocomplete="email" />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="field">
+                <label for="date" data-i18n="form_date">Event date</label>
+                <input id="date" name="date" type="date" />
+              </div>
+              <div class="field">
+                <label for="servings" data-i18n="form_servings">Servings (approx.)</label>
+                <input id="servings" name="servings" type="number" min="4" />
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="cake" data-i18n="form_cake">Type or theme</label>
+              <input id="cake" name="cake" type="text"
+                     placeholder="e.g. baptism cake, Mickey Mouse, candy bar…"
+                     data-i18n-attr="placeholder:form_cake_ph" />
+            </div>
+
+            <div class="field">
+              <label for="message"><span data-i18n="form_message">Tell me about your celebration</span> <span class="req">*</span></label>
+              <textarea id="message" name="message" required rows="5"
+                placeholder="Birthday for my 4-year-old who loves dinosaurs and the colour mint…"
+                data-i18n-attr="placeholder:form_message_ph"></textarea>
+            </div>
+
+            <div id="form-msg" class="form-msg" role="status" aria-live="polite"></div>
+
+            <button id="contact-submit" type="submit" class="btn btn-primary" style="align-self:flex-start" data-i18n="form_submit">
+              Send my enquiry
+            </button>
+
+            <p class="form-foot" data-i18n="form_foot">
+              By sending this form you agree to be contacted about your
+              enquiry. Your details are only used to reply to you — never
+              shared.
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <img class="footer-brand-img" src="assets/images/logo.png" alt="La Petite" />
+        <p data-i18n="footer_tagline">A tiny boutique sweet studio in Marathon, Greece.</p>
+      </div>
+      <div>
+        <h4 data-i18n="footer_visit">Visit</h4>
+        <ul>
+          <li data-i18n="footer_appt">By appointment only</li>
+          <li data-i18n="footer_loc">Marathon, Greece</li>
+          <li data-i18n="footer_hours">Tue – Sat · 10am – 6pm</li>
+        </ul>
+      </div>
+      <div>
+        <h4 data-i18n="footer_stay">Stay sweet</h4>
+        <ul>
+          <li><a href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener" data-i18n="footer_insta">@la_petitepatis on Instagram</a></li>
+          <li><a href="mailto:hello@lapetite.example">hello@lapetite.example</a></li>
+          <li><a href="contact.html" data-i18n="footer_enquiry">Send a custom order enquiry</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bar">
+      <div class="container">
+        <p data-i18n-year="footer_rights">© <span id="year"></span> La Petite. All rights reserved.</p>
+        <p data-i18n="footer_handmade">Handmade in small batches · Crafted with sugar &amp; love</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/i18n.js" defer></script>
+  <script src="assets/js/nav.js" defer></script>
+  <script src="assets/js/contact.js" defer></script>
+</body>
+</html>
