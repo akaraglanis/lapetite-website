@@ -79,10 +79,10 @@
 
           <!-- CAKES -->
           <article class="cake-card">
-            <div class="cake-thumb has-photo">
+            <a class="cake-thumb has-photo" href="?cat=cakes#gallery" data-i18n-attr="aria-label:svc_view_gallery_cakes" aria-label="View cake gallery">
               <img src="assets/images/gallery/cake-unicorn.jpg" alt="" loading="lazy" />
               <span class="name" data-i18n="svc_cake_name">Cakes</span>
-            </div>
+            </a>
             <div class="cake-body">
               <h3 data-i18n="svc_cake_name">Cakes</h3>
               <p class="tagline" data-i18n="svc_cake_tag">Bespoke birthday, baptism &amp; celebration cakes</p>
@@ -96,10 +96,10 @@
 
           <!-- BISCUITS -->
           <article class="cake-card">
-            <div class="cake-thumb has-photo">
+            <a class="cake-thumb has-photo" href="?cat=biscuits#gallery" data-i18n-attr="aria-label:svc_view_gallery_biscuits" aria-label="View biscuit gallery">
               <img src="assets/images/gallery/biscuit-horses.jpg" alt="" loading="lazy" />
               <span class="name" data-i18n="svc_biscuit_name">Biscuits</span>
-            </div>
+            </a>
             <div class="cake-body">
               <h3 data-i18n="svc_biscuit_name">Biscuits</h3>
               <p class="tagline" data-i18n="svc_biscuit_tag">Hand-iced cookies &amp; themed biscuit sets</p>
@@ -113,9 +113,9 @@
 
           <!-- CUPCAKES -->
           <article class="cake-card">
-            <div class="cake-thumb bg-cupcake">
+            <a class="cake-thumb bg-cupcake" href="?cat=cupcakes#gallery" data-i18n-attr="aria-label:svc_view_gallery_cupcakes" aria-label="View cupcake gallery">
               <span class="name" data-i18n="svc_cupcakes_name">Cupcakes</span>
-            </div>
+            </a>
             <div class="cake-body">
               <h3 data-i18n="svc_cupcakes_name">Cupcakes</h3>
               <p class="tagline" data-i18n="svc_cupcakes_tag">Themed cupcakes for parties &amp; gatherings</p>
@@ -129,9 +129,9 @@
 
           <!-- SWEETS -->
           <article class="cake-card">
-            <div class="cake-thumb bg-sweets">
+            <a class="cake-thumb bg-sweets" href="?cat=sweets#gallery" data-i18n-attr="aria-label:svc_view_gallery_sweets" aria-label="View sweets gallery">
               <span class="name" data-i18n="svc_sweets_name">Sweets</span>
-            </div>
+            </a>
             <div class="cake-body">
               <h3 data-i18n="svc_sweets_name">Sweets</h3>
               <p class="tagline" data-i18n="svc_sweets_tag">Cake pops, mini desserts &amp; sweet jars</p>
@@ -145,9 +145,9 @@
 
           <!-- CANDY BAR -->
           <article class="cake-card">
-            <div class="cake-thumb bg-candy">
+            <a class="cake-thumb bg-candy" href="?cat=candy#gallery" data-i18n-attr="aria-label:svc_view_gallery_candy" aria-label="View candy bar gallery">
               <span class="name" data-i18n="svc_candy_name">Candy bar</span>
-            </div>
+            </a>
             <div class="cake-body">
               <h3 data-i18n="svc_candy_name">Candy bar</h3>
               <p class="tagline" data-i18n="svc_candy_tag">A full dessert table for your event</p>
@@ -164,52 +164,67 @@
     </section>
 
     <!-- GALLERY -->
-    <section class="section section-light">
+    <section id="gallery" class="section section-light" style="scroll-margin-top:5rem">
       <div class="container">
         <div class="section-head">
           <span class="eyebrow" data-i18n="home_gallery_eyebrow">Past bakes</span>
           <h2 data-i18n="home_gallery_title">A little look at the kitchen</h2>
         </div>
 
+        <div class="gallery-filters" role="tablist" aria-label="Filter past bakes by category">
+          <button type="button" data-filter="all"      class="is-active" data-i18n="gallery_filter_all">All</button>
+          <button type="button" data-filter="cakes"    data-i18n="svc_cake_name">Cakes</button>
+          <button type="button" data-filter="biscuits" data-i18n="svc_biscuit_name">Biscuits</button>
+          <button type="button" data-filter="cupcakes" data-i18n="svc_cupcakes_name">Cupcakes</button>
+          <button type="button" data-filter="sweets"   data-i18n="svc_sweets_name">Sweets</button>
+          <button type="button" data-filter="candy"    data-i18n="svc_candy_name">Candy bar</button>
+        </div>
+
         <div class="mini-gallery">
-          <a href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/cake-unicorn.jpg"         alt="" loading="lazy" /></a>
-          <a href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/cake-unicorn-2.jpg"       alt="" loading="lazy" /></a>
-          <a href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/cake-mermaid.jpg"         alt="" loading="lazy" /></a>
-          <a href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/cake-spiderman.jpg"       alt="" loading="lazy" /></a>
-          <a href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/cake-minnie.jpg"          alt="" loading="lazy" /></a>
-          <a href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/cake-pokemon.jpg"         alt="" loading="lazy" /></a>
-          <a href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/cake-panda.jpg"           alt="" loading="lazy" /></a>
-          <a href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/cake-dinosaur.jpg"        alt="" loading="lazy" /></a>
-          <a href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/cake-cars.jpg"            alt="" loading="lazy" /></a>
-          <a href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/cake-cars2.webp"          alt="" loading="lazy" /></a>
-          <a href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/cake-football.jpg"        alt="" loading="lazy" /></a>
-          <a href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/cake-drums.jpg"           alt="" loading="lazy" /></a>
-          <a href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/cake-clown.jpg"           alt="" loading="lazy" /></a>
-          <a href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/cake-looneytoons.jpg"     alt="" loading="lazy" /></a>
-          <a href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/cake-haloween-boo.jpg"    alt="" loading="lazy" /></a>
-          <a href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/cake-watermelon.jpg"      alt="" loading="lazy" /></a>
-          <a href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/cake-bush-de-noel.jpg"    alt="" loading="lazy" /></a>
-          <a href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/cake-whiskey-PB.jpg"      alt="" loading="lazy" /></a>
-          <a href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/cake-pink-floral.jpg"     alt="" loading="lazy" /></a>
-          <a href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/cake-themed-1.jpg"        alt="" loading="lazy" /></a>
-          <a href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/cake-themed-2.jpg"        alt="" loading="lazy" /></a>
-          <a href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/cake-rainbow.webp"        alt="" loading="lazy" /></a>
-          <a href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/cake-celebration-1.jpg"   alt="" loading="lazy" /></a>
-          <a href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/cake-celebration-2.jpg"   alt="" loading="lazy" /></a>
-          <a href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/cake-celebration-6.jpg"   alt="" loading="lazy" /></a>
-          <a href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/cake-character-1.jpg"     alt="" loading="lazy" /></a>
-          <a href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/cake-character-2.jpg"     alt="" loading="lazy" /></a>
-          <a href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/cake-character-3.jpg"     alt="" loading="lazy" /></a>
-          <a href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/biscuit-horses.jpg"       alt="" loading="lazy" /></a>
-          <a href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/biscuits-chocolate.png"   alt="" loading="lazy" /></a>
-          <a href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/biscuits-1.jpg"           alt="" loading="lazy" /></a>
-          <a href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/biscuits-2.jpg"           alt="" loading="lazy" /></a>
-          <a href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/biscuits-3.jpg"           alt="" loading="lazy" /></a>
-          <a href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/biscuits-4.jpg"           alt="" loading="lazy" /></a>
-          <a href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/biscuits-6.jpg"           alt="" loading="lazy" /></a>
-          <a href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/biscuits-7.jpg"           alt="" loading="lazy" /></a>
-          <a href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/pie-lemonpie.jpg"         alt="" loading="lazy" /></a>
-          <a href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/pie-lotus.jpg"            alt="" loading="lazy" /></a>
+          <a data-cat="cakes"    href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/cake-unicorn.jpg"         alt="" loading="lazy" /></a>
+          <a data-cat="cakes"    href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/cake-unicorn-2.jpg"       alt="" loading="lazy" /></a>
+          <a data-cat="cakes"    href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/cake-mermaid.jpg"         alt="" loading="lazy" /></a>
+          <a data-cat="cakes"    href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/cake-spiderman.jpg"       alt="" loading="lazy" /></a>
+          <a data-cat="cakes"    href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/cake-minnie.jpg"          alt="" loading="lazy" /></a>
+          <a data-cat="cakes"    href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/cake-pokemon.jpg"         alt="" loading="lazy" /></a>
+          <a data-cat="cakes"    href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/cake-panda.jpg"           alt="" loading="lazy" /></a>
+          <a data-cat="cakes"    href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/cake-dinosaur.jpg"        alt="" loading="lazy" /></a>
+          <a data-cat="cakes"    href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/cake-cars.jpg"            alt="" loading="lazy" /></a>
+          <a data-cat="cakes"    href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/cake-cars2.webp"          alt="" loading="lazy" /></a>
+          <a data-cat="cakes"    href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/cake-football.jpg"        alt="" loading="lazy" /></a>
+          <a data-cat="cakes"    href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/cake-drums.jpg"           alt="" loading="lazy" /></a>
+          <a data-cat="cakes"    href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/cake-clown.jpg"           alt="" loading="lazy" /></a>
+          <a data-cat="cakes"    href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/cake-looneytoons.jpg"     alt="" loading="lazy" /></a>
+          <a data-cat="cakes"    href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/cake-haloween-boo.jpg"    alt="" loading="lazy" /></a>
+          <a data-cat="cakes"    href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/cake-watermelon.jpg"      alt="" loading="lazy" /></a>
+          <a data-cat="cakes"    href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/cake-bush-de-noel.jpg"    alt="" loading="lazy" /></a>
+          <a data-cat="cakes"    href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/cake-whiskey-PB.jpg"      alt="" loading="lazy" /></a>
+          <a data-cat="cakes"    href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/cake-pink-floral.jpg"     alt="" loading="lazy" /></a>
+          <a data-cat="cakes"    href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/cake-themed-1.jpg"        alt="" loading="lazy" /></a>
+          <a data-cat="cakes"    href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/cake-themed-2.jpg"        alt="" loading="lazy" /></a>
+          <a data-cat="cakes"    href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/cake-rainbow.webp"        alt="" loading="lazy" /></a>
+          <a data-cat="cakes"    href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/cake-celebration-1.jpg"   alt="" loading="lazy" /></a>
+          <a data-cat="cakes"    href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/cake-celebration-2.jpg"   alt="" loading="lazy" /></a>
+          <a data-cat="cakes"    href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/cake-celebration-6.jpg"   alt="" loading="lazy" /></a>
+          <a data-cat="cakes"    href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/cake-character-1.jpg"     alt="" loading="lazy" /></a>
+          <a data-cat="cakes"    href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/cake-character-2.jpg"     alt="" loading="lazy" /></a>
+          <a data-cat="cakes"    href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/cake-character-3.jpg"     alt="" loading="lazy" /></a>
+          <a data-cat="biscuits" href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/biscuit-horses.jpg"       alt="" loading="lazy" /></a>
+          <a data-cat="biscuits" href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/biscuits-chocolate.png"   alt="" loading="lazy" /></a>
+          <a data-cat="biscuits" href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/biscuits-1.jpg"           alt="" loading="lazy" /></a>
+          <a data-cat="biscuits" href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/biscuits-2.jpg"           alt="" loading="lazy" /></a>
+          <a data-cat="biscuits" href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/biscuits-3.jpg"           alt="" loading="lazy" /></a>
+          <a data-cat="biscuits" href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/biscuits-4.jpg"           alt="" loading="lazy" /></a>
+          <a data-cat="biscuits" href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/biscuits-6.jpg"           alt="" loading="lazy" /></a>
+          <a data-cat="biscuits" href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/biscuits-7.jpg"           alt="" loading="lazy" /></a>
+          <a data-cat="sweets"   href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/pie-lemonpie.jpg"         alt="" loading="lazy" /></a>
+          <a data-cat="sweets"   href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener"><img src="assets/images/gallery/pie-lotus.jpg"            alt="" loading="lazy" /></a>
+        </div>
+
+        <div class="gallery-empty is-hidden" role="status" aria-live="polite">
+          <h3 data-i18n="gallery_empty_title">More photos coming soon</h3>
+          <p data-i18n="gallery_empty_text">I'm still photographing this category. In the meantime, send me your idea and I'll bring it to life.</p>
+          <a class="btn btn-primary" href="contact.html" data-i18n="gallery_empty_btn">Get a quote</a>
         </div>
       </div>
     </section>
@@ -258,5 +273,6 @@
 
   <script src="assets/js/i18n.js" defer></script>
   <script src="assets/js/nav.js" defer></script>
+  <script src="assets/js/gallery.js" defer></script>
 </body>
 </html>

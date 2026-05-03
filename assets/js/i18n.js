@@ -74,6 +74,16 @@
       home_gallery_title:   "A little look at the kitchen",
       home_gallery_more:    "See more on Instagram →",
 
+      gallery_filter_all:   "All",
+      gallery_empty_title:  "More photos coming soon",
+      gallery_empty_text:   "I'm still photographing this category. In the meantime, send me your idea and I'll bring it to life.",
+      gallery_empty_btn:    "Get a quote",
+      svc_view_gallery_cakes:    "View cake gallery",
+      svc_view_gallery_biscuits: "View biscuit gallery",
+      svc_view_gallery_cupcakes: "View cupcake gallery",
+      svc_view_gallery_sweets:   "View sweets gallery",
+      svc_view_gallery_candy:    "View candy bar gallery",
+
       home_banner_title: "Got a sweet idea?",
       home_banner_text:  "Birthday, baptism, baby shower or just because — I'd love to hear what you're dreaming up.",
       home_banner_btn:   "Start your order",
@@ -217,6 +227,16 @@
       home_gallery_eyebrow: "Πρόσφατες δημιουργίες",
       home_gallery_title:   "Μια ματιά στην κουζίνα",
       home_gallery_more:    "Δείτε περισσότερα στο Instagram →",
+
+      gallery_filter_all:   "Όλα",
+      gallery_empty_title:  "Φωτογραφίες σύντομα",
+      gallery_empty_text:   "Φωτογραφίζω ακόμα αυτή την κατηγορία. Στο μεταξύ, πείτε μου την ιδέα σας και θα την ζωντανέψω.",
+      gallery_empty_btn:    "Ζητήστε προσφορά",
+      svc_view_gallery_cakes:    "Δείτε γκαλερί τούρτων",
+      svc_view_gallery_biscuits: "Δείτε γκαλερί μπισκότων",
+      svc_view_gallery_cupcakes: "Δείτε γκαλερί cupcakes",
+      svc_view_gallery_sweets:   "Δείτε γκαλερί γλυκών",
+      svc_view_gallery_candy:    "Δείτε γκαλερί candy bar",
 
       home_banner_title: "Έχετε μια γλυκιά ιδέα;",
       home_banner_text:  "Γενέθλια, βάφτιση, baby shower ή απλώς κάτι για μια Τρίτη — θα ήθελα να ακούσω.",
