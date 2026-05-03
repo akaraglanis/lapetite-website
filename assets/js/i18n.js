@@ -153,7 +153,7 @@
       form_message_ph:  "Birthday for my 4-year-old who loves dinosaurs and the colour mint…",
       form_submit:      "Send my enquiry",
       form_sending:     "Sending…",
-      form_foot:        "By sending this form you agree to be contacted about your enquiry. Your details are only used to reply to you — never shared.",
+      form_foot:        "By sending this form you agree to be contacted about your enquiry. Your details (name, email and the information you provide) are stored only as long as needed to reply to you, are never shared with third parties, and are not used for marketing. You can ask us to delete them any time at lapetite.m@outlook.com.",
 
       form_err_fill:    "Please fill in your name, email and a short message (10+ characters).",
       form_err_email:   "That email address doesn't look quite right.",
@@ -294,7 +294,7 @@
       form_message_ph:  "Γενέθλια για τον 4χρονο γιο μου που λατρεύει τους δεινόσαυρους και το χρώμα μέντα…",
       form_submit:      "Στείλτε το αίτημά μου",
       form_sending:     "Αποστολή…",
-      form_foot:        "Με την αποστολή αυτής της φόρμας συμφωνείτε να επικοινωνήσουμε μαζί σας για το αίτημά σας. Τα στοιχεία σας χρησιμοποιούνται μόνο για να σας απαντήσουμε — δεν κοινοποιούνται.",
+      form_foot:        "Με την αποστολή αυτής της φόρμας συμφωνείτε να επικοινωνήσουμε μαζί σας για το αίτημά σας. Τα στοιχεία σας (όνομα, email και όσα μας γράψετε) αποθηκεύονται μόνο όσο χρειάζεται για να σας απαντήσουμε, δεν κοινοποιούνται σε τρίτους και δεν χρησιμοποιούνται για διαφημιστικούς σκοπούς. Μπορείτε να ζητήσετε τη διαγραφή τους οποτεδήποτε στο lapetite.m@outlook.com.",
 
       form_err_fill:    "Παρακαλώ συμπληρώστε όνομα, email και ένα σύντομο μήνυμα (10+ χαρακτήρες).",
       form_err_email:   "Αυτή η διεύθυνση email δεν φαίνεται σωστή.",

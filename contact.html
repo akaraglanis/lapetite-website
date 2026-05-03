@@ -3,6 +3,13 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Security headers (meta-equivalent; GitHub Pages can't set HTTP headers) -->
+  <!-- Note: form-action allows https: so a Formspree/Web3Forms endpoint can be plugged into contact.js without breaking CSP. -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self' https:; form-action 'self' https: mailto:; base-uri 'self'; object-src 'none'; upgrade-insecure-requests" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+
   <title data-i18n="title_contact">Contact — La Petite</title>
   <meta name="description" content="Send a custom order enquiry to La Petite — boutique cakes, biscuits, cupcakes and dessert tables in Marathon, Greece." />
 
@@ -164,7 +171,7 @@
         <h4 data-i18n="footer_stay">Stay sweet</h4>
         <ul>
           <li><a href="https://www.instagram.com/la_petitepatis/" target="_blank" rel="noopener" data-i18n="footer_insta">@la_petitepatis on Instagram</a></li>
-          <li><a href="mailto:hello@lapetite.example">hello@lapetite.example</a></li>
+          <li><a href="mailto:lapetite.m@outlook.com">lapetite.m@outlook.com</a></li>
           <li><a href="contact.html" data-i18n="footer_enquiry">Send a custom order enquiry</a></li>
         </ul>
       </div>

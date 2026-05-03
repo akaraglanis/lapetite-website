@@ -14,8 +14,8 @@
  */
 
 (function () {
-  const FORM_ENDPOINT = "";                       // <-- paste your form endpoint here
-  const FALLBACK_EMAIL = "hello@lapetite.example"; // <-- your real email
+  const FORM_ENDPOINT = "";                       // <-- paste your Formspree/Web3Forms endpoint here
+  const FALLBACK_EMAIL = "lapetite.m@outlook.com"; // <-- your real email
 
   const form   = document.getElementById("contact-form");
   const msgBox = document.getElementById("form-msg");
